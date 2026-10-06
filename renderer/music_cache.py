@@ -14,12 +14,12 @@
   Macast 官方发行版是 PyInstaller 冻结的，宿主解释器里没有 mutagen 之类的
   第三方库。因此本插件**只使用 Python 标准库**，标签解析为自实现。
 
-<macast.title>音乐缓存</macast.title>
+<macast.title>自动抓取</macast.title>
 <macast.renderer>MusicCacheRenderer</macast.renderer>
 <macast.platform>darwin,win32,linux</macast.platform>
 <macast.version>1.0.0</macast.version>
 <macast.author>KiriChen</macast.author>
-<macast.desc>投送的音乐自动缓存到指定目录并重命名为「艺术家-歌名」</macast.desc>
+<macast.desc>将投送的音乐自动缓存到指定目录</macast.desc>
 """
 
 import os
