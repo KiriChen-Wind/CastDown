@@ -1,0 +1,11 @@
+# 统一换行符，避免不同平台提交产生整文件 diff
+* text=auto eol=lf
+
+# 二进制资源
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.ico  binary
+*.gif  binary
+*.zip  binary
+*.7z   binary

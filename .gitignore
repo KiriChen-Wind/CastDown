@@ -1,0 +1,38 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.python-version
+
+# ---- 测试与临时产物 ----
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+*.log
+.test-out.txt
+*.part
+
+# ---- 编辑器 / 系统 ----
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 本地对接 Macast 时的配置残留 ----
+# 插件运行时会把配置写到 Macast 的配置目录，不在本仓库内；
+# 万一有人在仓库里放了副本，一并忽略。
+macast_setting.json
+macast_setting.json.bak

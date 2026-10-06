@@ -1,0 +1,26 @@
+# https://editorconfig.org
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+[*.py]
+max_line_length = 100
+
+[*.ps1]
+# install.ps1 含中文，Windows PowerShell 5.1 需要 UTF-8 BOM 才能正确解析，
+# 改动后请勿让编辑器把 BOM 去掉（详见 README「维护提醒」）。
+charset = utf-8-bom
+indent_size = 2
+
+[*.{md,yml,yaml,json}]
+indent_size = 2
+trim_trailing_whitespace = false
+
+[*.md]
+charset = utf-8
