@@ -41,8 +41,8 @@
 ## 安装
 
 ```powershell
-git clone https://github.com/<你的用户名>/<仓库名>.git
-cd <仓库名>
+git clone https://github.com/KiriChen-Wind/CastDown.git
+cd CastDown
 ```
 
 **Windows**（任选其一）：
