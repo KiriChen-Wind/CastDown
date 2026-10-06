@@ -18,7 +18,7 @@
 <macast.renderer>MusicCacheRenderer</macast.renderer>
 <macast.platform>darwin,win32,linux</macast.platform>
 <macast.version>1.0.0</macast.version>
-<macast.author>KiriChen</macast.author>
+<macast.author>KiriChen-Wind</macast.author>
 <macast.desc>将投送的音乐自动缓存到指定目录</macast.desc>
 """
 
